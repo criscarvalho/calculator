@@ -48,4 +48,22 @@ public class CalculatorService implements Calculable {
 		return dividend / divisor;
 	}
 
+	@Override
+	public double sum(double portion1, double portion2) {
+		// TODO Auto-generated method stub
+		return  portion1 + portion2 ;
+	}
+
+	@Override
+	public double subtract(double portion1, double portion2) {
+		// TODO Auto-generated method stub
+		return portion1 - portion2;
+	}
+
+	@Override
+	public double multiply(double factor1, double factor2) {
+		// TODO Auto-generated method stub
+		return factor1 * factor2;
+	}
+
 }
